@@ -6,7 +6,7 @@ The UN’s Framework for the Immediate Socio-Economic Response to the COVID 19 C
 
 In this Jupyter Notebook, we will use a dataset which has been constructed from data about Median Household Income, Poverty, Unemployment and COVID cases and deaths in USA at state and county level from 6 datasets from census.gov and usda.gov. This analysis will perform machine learning analysis.
 
- # Liberaries:
+ # Libraries:
 
 Matplolib has been used for visualizations and SKLearn multiple liberaries have been used for machine learning models.
 
