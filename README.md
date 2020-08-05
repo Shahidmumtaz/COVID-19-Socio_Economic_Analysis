@@ -1,16 +1,16 @@
 # COVID-19-Socio_Economic_Analysis
 Analysis by Machine Learning
 
-Introduction:
+ # Introduction:
 The UN’s Framework for the Immediate Socio-Economic Response to the COVID 19 Crisis warns that “The COVID-19 pandemic is far more than a health crisis: it is affecting societies and economies at their core. While the impact of the pandemic will vary from county to county, it will most likely increase poverty and inequalities at a state to country scale.
 
 In this Jupyter Notebook, we will use a dataset which has been constructed from data about Median Household Income, Poverty, Unemployment and COVID cases and deaths in USA at state and county level from 6 datasets from census.gov and usda.gov. This analysis will perform machine learning analysis.
 
-Liberaries:
+ # Liberaries:
 
 Matplolib has been used for visualizations and SKLearn multiple liberaries have been used for machine learning models.
 
-Analysis:
+ # Analysis:
 
 Feature Importance: Random forest consists of a number of decision trees. Every node in the decision trees is a condition on a single feature, designed to split the dataset into two so that similar response values end up in the same set. The measure based on which the (locally) optimal condition is chosen is called impurity. When training a tree, it can be computed by how much each feature decreases the weighted impurity in a tree. For a forest, the impurity decrease from each feature that can be averaged and the features that are ranked according to this measure.
 
@@ -37,3 +37,6 @@ The Accuracy score of Decision Tree is 100. Decision Tree algorithms predicts to
 The Accuracy score of Randon Forest classifier is 99.15.  Random forests is considered as a highly accurate and robust method because of the number of decision trees participating in the process. Because the accuracy score is high, our data analysis model implies that variables are related and can be highly impacted by each other.
 
 The combination of the COVID-19 pandemic, a drop in unemployment, increasing number of cases and deaths have the potential to seriously impact stability state and county wide, and will strain public health and social security systems in the short to medium terms. This analysis uses machine learning models' accuracy scores to predict relationship betwen covid-19 cases/deaths and several socio-economic factors like poverty, household income, unemployment, education and race. The high accuracy scores of each model indicate that there is a strong relationship and all dependent variables can be highly impacted by changes in independent variables, such as covid-19 cases/deaths.
+
+  # Author:
+  Shahid Mumtaz
