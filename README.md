@@ -1,4 +1,4 @@
-# COVID-19-Socio_Economic_Analysis
+# COVID-19-Socio_Economic_Analysis Project
 Analysis by Machine Learning
 
  # Introduction:
